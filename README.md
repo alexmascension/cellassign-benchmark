@@ -31,9 +31,7 @@ results/           CSV tables and figures written by the notebook
 ## Running
 
 ```bash
-# until cellassign 2.0 is on PyPI, install it from the release branch
-pip install "cellassign @ git+https://github.com/alexmascension/cell_asign@v2.0.0"
-pip install -e .                      # benchmark stack (scanpy, CellTypist, ...)
+pip install -e .                      # installs cellassign>=2.0 and the benchmark stack
 cd notebooks
 jupyter nbconvert --to notebook --execute --inplace benchmark.ipynb
 ```
