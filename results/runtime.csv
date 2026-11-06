@@ -1,0 +1,10 @@
+,pbmc_all,pbmc_T,pbmc_myeloid,brain_all,brain_inh
+CellTypist Adult_Human_MTG,,,,6.4,3.8
+CellTypist Adult_Human_PrefrontalCortex,,,,5.7,3.3
+CellTypist Immune_All_High,8.1,,,,
+CellTypist Immune_All_Low,,4.7,4.3,,
+cellassign v1,2.2,1.2,0.8,2.3,1.7
+cellassign v2,28.7,9.0,6.9,19.3,3.6
+cellassign v2 + negatives,27.2,10.1,7.9,16.1,3.8
+cellassign v2 + negatives (curated),27.0,9.9,7.4,18.0,3.8
+score_genes,20.5,4.7,5.5,21.4,5.3

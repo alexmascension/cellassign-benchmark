@@ -1,0 +1,32 @@
+[project]
+name = "cellassign-benchmark"
+version = "0.1.0"
+description = "Benchmark of cellassign against other cell type annotation methods."
+requires-python = ">=3.10"
+dependencies = [
+  "cellassign>=2.0",
+  "scanpy>=1.10",
+  "anndata>=0.10",
+  "leidenalg",
+  "igraph",
+  "celltypist>=1.6",
+  "scikit-learn",
+  "openpyxl",
+  "requests",
+  "matplotlib",
+  "jupyter",
+]
+
+[tool.setuptools]
+packages = ["bench"]
+
+[tool.ruff]
+line-length = 99
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["bench"]
+known-third-party = ["cellassign"]
